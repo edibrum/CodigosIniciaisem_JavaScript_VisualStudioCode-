@@ -50,7 +50,7 @@ function capta () {
 };
 
 // *******************************************************************************
-// 03 - MOSTRA / ATUALIZA O TOTAL DE CLINETES PARA AS FILAS:
+// 03 - MOSTRA / ATUALIZA O TOTAL DE CLIENTES PARA AS FILAS:
 function total_fila () {
     alert("Total de clientes em fila: \n NORMAL = " + CLIENTES_NORMAL.length + "\n PRIORITARIO = " + CLIENTES_PRIORIDADE.length + "\n");
 };
