@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+
+<!-- Alguns detalhes de estilo: -->
+        <style>
+            h1{
+                color: rgb(255, 0, 0);
+            }
+            button{
+                border-color: rgb(0, 0, 255);
+                color: rgb(0, 0, 255);
+                text-align: center;
+                border-radius: 25%;
+            }
+        </style>
+</head>
+
+<body>
+
+<!-- Aqui garantimos que ao clicar para calcular mudaremos o texto mostrado na parte de cima: -->
+    <p><em>Exercício: criando a funcionalidade de calculadora simples:</em></p><br>
+    <h1 id="resultado">Calculadora!</h1>
+
+    <!-- Aqui temos as duas entradas de tipo número para os cálculos: -->
+    N1: <input id='num1' type='number'><br>
+    N2: <input id='num2' type='number'><br> <br>
+
+    <!-- Aqui temos os quatro botões que chamam as respectivas funções do arquivo .js: -->
+    <button onclick="soma()">somar</button>
+    <button onclick="subtracao()">subtrair</button>
+    <button onclick="multiplicacao()">multiplicar</button>
+    <button onclick="divisao()">dividir</button>   
+
+    <!-- Aqui especifica o arquivo .js: -->
+    <script src="./00_BackEnd_JavaScript_Input_Button_Calculadora_Simples.js"></script>
+
+</body>
+
+</html>
